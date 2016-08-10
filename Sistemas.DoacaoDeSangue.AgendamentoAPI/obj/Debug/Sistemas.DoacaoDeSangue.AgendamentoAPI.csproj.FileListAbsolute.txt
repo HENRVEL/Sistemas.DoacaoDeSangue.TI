@@ -54,7 +54,9 @@ C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Age
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\roslyn\vbc.exe
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\roslyn\VBCSCompiler.exe
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\ApplicationInsights.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\Sistemas.DoacaoDeSangue.AgendamentoAPI.dll.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\Sistemas.DoacaoDeSangue.AgendamentoAPI.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\Sistemas.DoacaoDeSangue.AgendamentoAPI.pdb
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\EntityFramework.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.AgendamentoAPI\bin\Microsoft.AI.DependencyCollector.dll

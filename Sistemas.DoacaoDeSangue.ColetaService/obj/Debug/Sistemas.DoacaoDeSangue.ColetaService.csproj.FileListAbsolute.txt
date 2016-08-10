@@ -1,5 +1,4 @@
 C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\obj\Debug\Sistemas.DoacaoDeSangue.ColetaService.csprojResolveAssemblyReference.cache
-C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\obj\Debug\Sistemas.DoacaoDeSangue.ColetaService.csprojResolveAssemblyReference.cache
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\ApplicationInsights.config
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\EntityFramework.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\Microsoft.AI.Agent.Intercept.dll
@@ -21,5 +20,9 @@ C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Col
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\Microsoft.AI.Web.xml
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\obj\Debug\Sistemas.DoacaoDeSangue.ColetaService.csprojResolveAssemblyReference.cache
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\obj\Debug\Sistemas.DoacaoDeSangue.ColetaService.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\obj\Debug\Sistemas.DoacaoDeSangue.ColetaService.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\Sistemas.DoacaoDeSangue.ColetaService.dll.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\Sistemas.DoacaoDeSangue.ColetaService.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaService\bin\Sistemas.DoacaoDeSangue.ColetaService.pdb

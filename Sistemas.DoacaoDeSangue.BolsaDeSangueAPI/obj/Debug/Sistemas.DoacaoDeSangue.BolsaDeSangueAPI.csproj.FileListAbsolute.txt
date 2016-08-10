@@ -54,7 +54,9 @@ C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Bol
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\roslyn\vbc.exe
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\roslyn\VBCSCompiler.exe
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\ApplicationInsights.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI.dll.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI.pdb
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\EntityFramework.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\bin\Microsoft.AI.DependencyCollector.dll

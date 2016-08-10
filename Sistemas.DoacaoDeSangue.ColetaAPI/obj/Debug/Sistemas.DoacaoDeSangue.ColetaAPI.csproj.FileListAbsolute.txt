@@ -54,7 +54,9 @@ C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Col
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\roslyn\vbc.exe
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\roslyn\VBCSCompiler.exe
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\ApplicationInsights.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\Sistemas.DoacaoDeSangue.ColetaAPI.dll.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\Sistemas.DoacaoDeSangue.ColetaAPI.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\Sistemas.DoacaoDeSangue.ColetaAPI.pdb
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\EntityFramework.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.ColetaAPI\bin\Microsoft.AI.DependencyCollector.dll
