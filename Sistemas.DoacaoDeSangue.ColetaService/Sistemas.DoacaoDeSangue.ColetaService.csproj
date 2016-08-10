@@ -129,7 +129,7 @@
       <Name>Sistemas.DoacaoDeSangue.DTO</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sistemas.DoacaoDeSangue.Log\Sistemas.DoacaoDeSangue.Log.csproj">
-      <Project>{e37050e3-52c8-4383-86ab-0f32e8df9eed}</Project>
+      <Project>{8d053579-9389-4592-8c7b-5dc180b4b0e8}</Project>
       <Name>Sistemas.DoacaoDeSangue.Log</Name>
     </ProjectReference>
   </ItemGroup>

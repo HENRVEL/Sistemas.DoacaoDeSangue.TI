@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_DOACAOModelStoreContainer" CdmEntityContainer="BD_DOACAOEntities">
+    <FunctionImportMapping FunctionImportName="ObterDoador" FunctionName="BD_DOACAOModel.Store.ObterDoador">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_DOACAOModel.ObterDoador_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="SOBRENOME" ColumnName="SOBRENOME" />
+          <ScalarProperty Name="SEXO" ColumnName="SEXO" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="COMPLEMENTO" ColumnName="COMPLEMENTO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+          <ScalarProperty Name="CELULAR" ColumnName="CELULAR" />
+          <ScalarProperty Name="TIPO_SANGUINEO" ColumnName="TIPO_SANGUINEO" />
+          <ScalarProperty Name="FATOR_RH" ColumnName="FATOR_RH" />
+          <ScalarProperty Name="DOADOR_DE_SANGUE" ColumnName="DOADOR_DE_SANGUE" />
+          <ScalarProperty Name="ULTIMA_DOACAO" ColumnName="ULTIMA_DOACAO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CriarDoador" FunctionName="BD_DOACAOModel.Store.CriarDoador" />
+    <FunctionImportMapping FunctionImportName="AlterarDoador" FunctionName="BD_DOACAOModel.Store.AlterarDoador" />
+    <FunctionImportMapping FunctionImportName="ExcluirDoador" FunctionName="BD_DOACAOModel.Store.ExcluirDoador" />
+    <FunctionImportMapping FunctionImportName="AlterarLaboratorio" FunctionName="BD_DOACAOModel.Store.AlterarLaboratorio" />
+    <FunctionImportMapping FunctionImportName="CriarLaboratorio" FunctionName="BD_DOACAOModel.Store.CriarLaboratorio" />
+    <FunctionImportMapping FunctionImportName="ExcluirLaboratorio" FunctionName="BD_DOACAOModel.Store.ExcluirLaboratorio" />
+    <FunctionImportMapping FunctionImportName="ObterLaboratorio" FunctionName="BD_DOACAOModel.Store.ObterLaboratorio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_DOACAOModel.ObterLaboratorio_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="COMPLEMENTO" ColumnName="COMPLEMENTO" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="RESPONSAVEL" ColumnName="RESPONSAVEL" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+          <ScalarProperty Name="ID_SUS" ColumnName="ID_SUS" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="AlterarUnidadeHospitalar" FunctionName="BD_DOACAOModel.Store.AlterarUnidadeHospitalar" />
+    <FunctionImportMapping FunctionImportName="CriarUnidadeHospitalar" FunctionName="BD_DOACAOModel.Store.CriarUnidadeHospitalar" />
+    <FunctionImportMapping FunctionImportName="ExcluirUnidadeHospitalar" FunctionName="BD_DOACAOModel.Store.ExcluirUnidadeHospitalar" />
+    <FunctionImportMapping FunctionImportName="ObterUnidadeHospitalar" FunctionName="BD_DOACAOModel.Store.ObterUnidadeHospitalar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_DOACAOModel.ObterUnidadeHospitalar_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="COMPLEMENTO" ColumnName="COMPLEMENTO" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="RESPONSAVEL" ColumnName="RESPONSAVEL" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+          <ScalarProperty Name="ATIVO" ColumnName="ATIVO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CriarAgendaLaboratorio" FunctionName="BD_DOACAOModel.Store.CriarAgendaLaboratorio" />
+    <FunctionImportMapping FunctionImportName="CriarAgendaDoador" FunctionName="BD_DOACAOModel.Store.CriarAgendaDoador" />
+    <FunctionImportMapping FunctionImportName="ObterAgendaDoador" FunctionName="BD_DOACAOModel.Store.ObterAgendaDoador">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_DOACAOModel.ObterAgendaDoador_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="ID_DOA" ColumnName="ID_DOA" />
+          <ScalarProperty Name="ID_AGL" ColumnName="ID_AGL" />
+          <ScalarProperty Name="DATA" ColumnName="DATA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="CANCELADO" ColumnName="CANCELADO" />
+          <ScalarProperty Name="MOTIVO_CANCELAMENTO" ColumnName="MOTIVO_CANCELAMENTO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CriarPacienteHospitalar" FunctionName="BD_DOACAOModel.Store.CriarPacienteHospitalar" />
+    <FunctionImportMapping FunctionImportName="CriarSolicitacaoBolsaDeSangue" FunctionName="BD_DOACAOModel.Store.CriarSolicitacaoBolsaDeSangue" />
+    <FunctionImportMapping FunctionImportName="CriarPacienteLaboratorio" FunctionName="BD_DOACAOModel.Store.CriarPacienteLaboratorio" />
+    <FunctionImportMapping FunctionImportName="CriarResultadoDeExames" FunctionName="BD_DOACAOModel.Store.CriarResultadoDeExames" />
+    <FunctionImportMapping FunctionImportName="CriarServicoPrestado" FunctionName="BD_DOACAOModel.Store.CriarServicoPrestado" />
+    <FunctionImportMapping FunctionImportName="CriarLog" FunctionName="BD_DOACAOModel.Store.CriarLog" />
+  </EntityContainerMapping>
+</Mapping>

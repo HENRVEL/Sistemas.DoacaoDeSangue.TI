@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_DOACAOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="AlterarDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="SOBRENOME" Type="varchar" Mode="In" />
+    <Parameter Name="SEXO" Type="char" Mode="In" />
+    <Parameter Name="CPF" Type="bigint" Mode="In" />
+    <Parameter Name="CIDADE" Type="varchar" Mode="In" />
+    <Parameter Name="ESTADO" Type="varchar" Mode="In" />
+    <Parameter Name="BAIRRO" Type="varchar" Mode="In" />
+    <Parameter Name="COMPLEMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CEP" Type="varchar" Mode="In" />
+    <Parameter Name="EMAIL" Type="varchar" Mode="In" />
+    <Parameter Name="TELEFONE" Type="varchar" Mode="In" />
+    <Parameter Name="CELULAR" Type="varchar" Mode="In" />
+    <Parameter Name="TIPO_SANGUINEO" Type="char" Mode="In" />
+    <Parameter Name="FATOR_RH" Type="char" Mode="In" />
+    <Parameter Name="DOADOR_DE_SANGUE" Type="bit" Mode="In" />
+    <Parameter Name="ULTIMA_DOACAO" Type="date" Mode="In" />
+  </Function>
+  <Function Name="AlterarLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="CIDADE" Type="varchar" Mode="In" />
+    <Parameter Name="ESTADO" Type="varchar" Mode="In" />
+    <Parameter Name="BAIRRO" Type="varchar" Mode="In" />
+    <Parameter Name="COMPLEMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CNPJ" Type="varchar" Mode="In" />
+    <Parameter Name="RESPONSAVEL" Type="varchar" Mode="In" />
+    <Parameter Name="EMAIL" Type="varchar" Mode="In" />
+    <Parameter Name="TELEFONE" Type="varchar" Mode="In" />
+    <Parameter Name="ID_SUS" Type="int" Mode="In" />
+    <Parameter Name="ATIVO" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="AlterarUnidadeHospitalar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="CIDADE" Type="varchar" Mode="In" />
+    <Parameter Name="ESTADO" Type="varchar" Mode="In" />
+    <Parameter Name="BAIRRO" Type="varchar" Mode="In" />
+    <Parameter Name="COMPLEMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CNPJ" Type="varchar" Mode="In" />
+    <Parameter Name="RESPONSAVEL" Type="varchar" Mode="In" />
+    <Parameter Name="EMAIL" Type="varchar" Mode="In" />
+    <Parameter Name="TELEFONE" Type="varchar" Mode="In" />
+    <Parameter Name="ATIVO" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="CriarAgendaDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_LAB" Type="int" Mode="In" />
+    <Parameter Name="ID_DOA" Type="int" Mode="In" />
+    <Parameter Name="ID_AGL" Type="int" Mode="In" />
+    <Parameter Name="CANCELADO" Type="bit" Mode="In" />
+    <Parameter Name="MOTIVO_CANCELAMENTO" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CriarAgendaLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_LAB" Type="int" Mode="In" />
+    <Parameter Name="DATA" Type="varchar" Mode="In" />
+    <Parameter Name="HORA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CriarDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="SOBRENOME" Type="varchar" Mode="In" />
+    <Parameter Name="SEXO" Type="char" Mode="In" />
+    <Parameter Name="CPF" Type="bigint" Mode="In" />
+    <Parameter Name="CIDADE" Type="varchar" Mode="In" />
+    <Parameter Name="ESTADO" Type="varchar" Mode="In" />
+    <Parameter Name="BAIRRO" Type="varchar" Mode="In" />
+    <Parameter Name="COMPLEMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CEP" Type="varchar" Mode="In" />
+    <Parameter Name="EMAIL" Type="varchar" Mode="In" />
+    <Parameter Name="TELEFONE" Type="varchar" Mode="In" />
+    <Parameter Name="CELULAR" Type="varchar" Mode="In" />
+    <Parameter Name="TIPO_SANGUINEO" Type="char" Mode="In" />
+    <Parameter Name="FATOR_RH" Type="char" Mode="In" />
+    <Parameter Name="DOADOR_DE_SANGUE" Type="bit" Mode="In" />
+    <Parameter Name="ULTIMA_DOACAO" Type="date" Mode="In" />
+  </Function>
+  <Function Name="CriarLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="CIDADE" Type="varchar" Mode="In" />
+    <Parameter Name="ESTADO" Type="varchar" Mode="In" />
+    <Parameter Name="BAIRRO" Type="varchar" Mode="In" />
+    <Parameter Name="COMPLEMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CNPJ" Type="varchar" Mode="In" />
+    <Parameter Name="RESPONSAVEL" Type="varchar" Mode="In" />
+    <Parameter Name="EMAIL" Type="varchar" Mode="In" />
+    <Parameter Name="TELEFONE" Type="varchar" Mode="In" />
+    <Parameter Name="ID_SUS" Type="int" Mode="In" />
+    <Parameter Name="ATIVO" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="CriarLog" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TIPO_LOG" Type="varchar" Mode="In" />
+    <Parameter Name="MENSAGEM" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CriarPacienteHospitalar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="SOBRENOME" Type="varchar" Mode="In" />
+    <Parameter Name="SEXO" Type="char" Mode="In" />
+    <Parameter Name="DATA_NASCIMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CPF" Type="bigint" Mode="In" />
+    <Parameter Name="TIPO_SANGUINEO" Type="char" Mode="In" />
+    <Parameter Name="FATOR_RH" Type="char" Mode="In" />
+  </Function>
+  <Function Name="CriarPacienteLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="SOBRENOME" Type="varchar" Mode="In" />
+    <Parameter Name="SEXO" Type="char" Mode="In" />
+    <Parameter Name="DATA_NASCIMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CPF" Type="bigint" Mode="In" />
+    <Parameter Name="TIPO_SANGUINEO" Type="char" Mode="In" />
+    <Parameter Name="FATOR_RH" Type="char" Mode="In" />
+  </Function>
+  <Function Name="CriarResultadoDeExames" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_LAB" Type="int" Mode="In" />
+    <Parameter Name="CPF" Type="bigint" Mode="In" />
+    <Parameter Name="CODIGO" Type="int" Mode="In" />
+    <Parameter Name="RESULTADO" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CriarServicoPrestado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_LAB" Type="int" Mode="In" />
+    <Parameter Name="TIPO_SERVICO" Type="varchar" Mode="In" />
+    <Parameter Name="VALOR" Type="money" Mode="In" />
+  </Function>
+  <Function Name="CriarSolicitacaoBolsaDeSangue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_UHP" Type="int" Mode="In" />
+    <Parameter Name="ID_LAB" Type="int" Mode="In" />
+    <Parameter Name="MOTIVO_DOACAO" Type="varchar" Mode="In" />
+    <Parameter Name="DIAGNOSTICO" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CriarUnidadeHospitalar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NOME" Type="varchar" Mode="In" />
+    <Parameter Name="CIDADE" Type="varchar" Mode="In" />
+    <Parameter Name="ESTADO" Type="varchar" Mode="In" />
+    <Parameter Name="BAIRRO" Type="varchar" Mode="In" />
+    <Parameter Name="COMPLEMENTO" Type="varchar" Mode="In" />
+    <Parameter Name="CNPJ" Type="varchar" Mode="In" />
+    <Parameter Name="RESPONSAVEL" Type="varchar" Mode="In" />
+    <Parameter Name="EMAIL" Type="varchar" Mode="In" />
+    <Parameter Name="TELEFONE" Type="varchar" Mode="In" />
+    <Parameter Name="ATIVO" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="ExcluirDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ExcluirLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ExcluirUnidadeHospitalar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ObterAgendaDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_DOA" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ObterDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="CPF" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="ObterLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ObterUnidadeHospitalar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="BD_DOACAOModelStoreContainer" />
+</Schema>

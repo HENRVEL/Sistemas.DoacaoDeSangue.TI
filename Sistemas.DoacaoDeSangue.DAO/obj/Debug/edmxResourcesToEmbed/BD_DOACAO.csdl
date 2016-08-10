@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_DOACAOModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BD_DOACAOEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="ObterDoador" ReturnType="Collection(BD_DOACAOModel.ObterDoador_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="CPF" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <FunctionImport Name="CriarDoador">
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="SOBRENOME" Mode="In" Type="String" />
+      <Parameter Name="SEXO" Mode="In" Type="String" />
+      <Parameter Name="CPF" Mode="In" Type="Int64" />
+      <Parameter Name="CIDADE" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="BAIRRO" Mode="In" Type="String" />
+      <Parameter Name="COMPLEMENTO" Mode="In" Type="String" />
+      <Parameter Name="CEP" Mode="In" Type="String" />
+      <Parameter Name="EMAIL" Mode="In" Type="String" />
+      <Parameter Name="TELEFONE" Mode="In" Type="String" />
+      <Parameter Name="CELULAR" Mode="In" Type="String" />
+      <Parameter Name="TIPO_SANGUINEO" Mode="In" Type="String" />
+      <Parameter Name="FATOR_RH" Mode="In" Type="String" />
+      <Parameter Name="DOADOR_DE_SANGUE" Mode="In" Type="Boolean" />
+      <Parameter Name="ULTIMA_DOACAO" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="AlterarDoador">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="SOBRENOME" Mode="In" Type="String" />
+      <Parameter Name="SEXO" Mode="In" Type="String" />
+      <Parameter Name="CPF" Mode="In" Type="Int64" />
+      <Parameter Name="CIDADE" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="BAIRRO" Mode="In" Type="String" />
+      <Parameter Name="COMPLEMENTO" Mode="In" Type="String" />
+      <Parameter Name="CEP" Mode="In" Type="String" />
+      <Parameter Name="EMAIL" Mode="In" Type="String" />
+      <Parameter Name="TELEFONE" Mode="In" Type="String" />
+      <Parameter Name="CELULAR" Mode="In" Type="String" />
+      <Parameter Name="TIPO_SANGUINEO" Mode="In" Type="String" />
+      <Parameter Name="FATOR_RH" Mode="In" Type="String" />
+      <Parameter Name="DOADOR_DE_SANGUE" Mode="In" Type="Boolean" />
+      <Parameter Name="ULTIMA_DOACAO" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="ExcluirDoador">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AlterarLaboratorio">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="CIDADE" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="BAIRRO" Mode="In" Type="String" />
+      <Parameter Name="COMPLEMENTO" Mode="In" Type="String" />
+      <Parameter Name="CNPJ" Mode="In" Type="String" />
+      <Parameter Name="RESPONSAVEL" Mode="In" Type="String" />
+      <Parameter Name="EMAIL" Mode="In" Type="String" />
+      <Parameter Name="TELEFONE" Mode="In" Type="String" />
+      <Parameter Name="ID_SUS" Mode="In" Type="Int32" />
+      <Parameter Name="ATIVO" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="CriarLaboratorio">
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="CIDADE" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="BAIRRO" Mode="In" Type="String" />
+      <Parameter Name="COMPLEMENTO" Mode="In" Type="String" />
+      <Parameter Name="CNPJ" Mode="In" Type="String" />
+      <Parameter Name="RESPONSAVEL" Mode="In" Type="String" />
+      <Parameter Name="EMAIL" Mode="In" Type="String" />
+      <Parameter Name="TELEFONE" Mode="In" Type="String" />
+      <Parameter Name="ID_SUS" Mode="In" Type="Int32" />
+      <Parameter Name="ATIVO" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="ExcluirLaboratorio">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObterLaboratorio" ReturnType="Collection(BD_DOACAOModel.ObterLaboratorio_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AlterarUnidadeHospitalar">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="CIDADE" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="BAIRRO" Mode="In" Type="String" />
+      <Parameter Name="COMPLEMENTO" Mode="In" Type="String" />
+      <Parameter Name="CNPJ" Mode="In" Type="String" />
+      <Parameter Name="RESPONSAVEL" Mode="In" Type="String" />
+      <Parameter Name="EMAIL" Mode="In" Type="String" />
+      <Parameter Name="TELEFONE" Mode="In" Type="String" />
+      <Parameter Name="ATIVO" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="CriarUnidadeHospitalar">
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="CIDADE" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="BAIRRO" Mode="In" Type="String" />
+      <Parameter Name="COMPLEMENTO" Mode="In" Type="String" />
+      <Parameter Name="CNPJ" Mode="In" Type="String" />
+      <Parameter Name="RESPONSAVEL" Mode="In" Type="String" />
+      <Parameter Name="EMAIL" Mode="In" Type="String" />
+      <Parameter Name="TELEFONE" Mode="In" Type="String" />
+      <Parameter Name="ATIVO" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="ExcluirUnidadeHospitalar">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObterUnidadeHospitalar" ReturnType="Collection(BD_DOACAOModel.ObterUnidadeHospitalar_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CriarAgendaLaboratorio">
+      <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+      <Parameter Name="DATA" Mode="In" Type="String" />
+      <Parameter Name="HORA" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CriarAgendaDoador">
+      <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+      <Parameter Name="ID_DOA" Mode="In" Type="Int32" />
+      <Parameter Name="ID_AGL" Mode="In" Type="Int32" />
+      <Parameter Name="CANCELADO" Mode="In" Type="Boolean" />
+      <Parameter Name="MOTIVO_CANCELAMENTO" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ObterAgendaDoador" ReturnType="Collection(BD_DOACAOModel.ObterAgendaDoador_Result)">
+      <Parameter Name="ID_DOA" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CriarPacienteHospitalar">
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="SOBRENOME" Mode="In" Type="String" />
+      <Parameter Name="SEXO" Mode="In" Type="String" />
+      <Parameter Name="DATA_NASCIMENTO" Mode="In" Type="String" />
+      <Parameter Name="CPF" Mode="In" Type="Int64" />
+      <Parameter Name="TIPO_SANGUINEO" Mode="In" Type="String" />
+      <Parameter Name="FATOR_RH" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CriarSolicitacaoBolsaDeSangue">
+      <Parameter Name="ID_UHP" Mode="In" Type="Int32" />
+      <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+      <Parameter Name="MOTIVO_DOACAO" Mode="In" Type="String" />
+      <Parameter Name="DIAGNOSTICO" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CriarPacienteLaboratorio">
+      <Parameter Name="NOME" Mode="In" Type="String" />
+      <Parameter Name="SOBRENOME" Mode="In" Type="String" />
+      <Parameter Name="SEXO" Mode="In" Type="String" />
+      <Parameter Name="DATA_NASCIMENTO" Mode="In" Type="String" />
+      <Parameter Name="CPF" Mode="In" Type="Int64" />
+      <Parameter Name="TIPO_SANGUINEO" Mode="In" Type="String" />
+      <Parameter Name="FATOR_RH" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CriarResultadoDeExames">
+      <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+      <Parameter Name="CPF" Mode="In" Type="Int64" />
+      <Parameter Name="CODIGO" Mode="In" Type="Int32" />
+      <Parameter Name="RESULTADO" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CriarServicoPrestado">
+      <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+      <Parameter Name="TIPO_SERVICO" Mode="In" Type="String" />
+      <Parameter Name="VALOR" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="CriarLog">
+      <Parameter Name="TIPO_LOG" Mode="In" Type="String" />
+      <Parameter Name="MENSAGEM" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="ObterDoador_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="NOME" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="SOBRENOME" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="SEXO" Nullable="false" MaxLength="1" />
+    <Property Type="Int64" Name="CPF" Nullable="false" />
+    <Property Type="String" Name="CIDADE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ESTADO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="BAIRRO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="COMPLEMENTO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CEP" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="EMAIL" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TELEFONE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CELULAR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TIPO_SANGUINEO" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="FATOR_RH" Nullable="false" MaxLength="1" />
+    <Property Type="Boolean" Name="DOADOR_DE_SANGUE" Nullable="true" />
+    <Property Type="DateTime" Name="ULTIMA_DOACAO" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ObterLaboratorio_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="NOME" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="CIDADE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ESTADO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="BAIRRO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="COMPLEMENTO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CNPJ" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="RESPONSAVEL" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="EMAIL" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TELEFONE" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="ID_SUS" Nullable="true" />
+    <Property Type="Boolean" Name="ATIVO" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="ObterUnidadeHospitalar_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="NOME" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="CIDADE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ESTADO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="BAIRRO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="COMPLEMENTO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CNPJ" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="RESPONSAVEL" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="EMAIL" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TELEFONE" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="ATIVO" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="ObterAgendaDoador_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="ID_LAB" Nullable="false" />
+    <Property Type="String" Name="NOME" Nullable="false" MaxLength="255" />
+    <Property Type="Int32" Name="ID_DOA" Nullable="false" />
+    <Property Type="Int32" Name="ID_AGL" Nullable="false" />
+    <Property Type="String" Name="DATA" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
+    <Property Type="Boolean" Name="CANCELADO" Nullable="false" />
+    <Property Type="String" Name="MOTIVO_CANCELAMENTO" Nullable="true" MaxLength="255" />
+  </ComplexType>
+</Schema>

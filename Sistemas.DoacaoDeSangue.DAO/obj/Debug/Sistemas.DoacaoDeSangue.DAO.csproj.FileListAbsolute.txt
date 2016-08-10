@@ -1,0 +1,15 @@
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll.config
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.dll
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.xml
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.csprojResolveAssemblyReference.cache
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.xml
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.pdb

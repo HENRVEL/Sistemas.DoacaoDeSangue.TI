@@ -1,0 +1,11 @@
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\Sistemas.DoacaoDeSangue.Log.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\Sistemas.DoacaoDeSangue.Log.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\EntityFramework.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\Sistemas.DoacaoDeSangue.DTO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\bin\Debug\EntityFramework.xml
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\obj\Debug\Sistemas.DoacaoDeSangue.Log.csprojResolveAssemblyReference.cache
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\obj\Debug\Sistemas.DoacaoDeSangue.Log.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.Log\obj\Debug\Sistemas.DoacaoDeSangue.Log.pdb
