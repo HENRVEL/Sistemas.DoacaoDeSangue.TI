@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{886FBDA0-5DEC-4F45-A9FC-BF97134E2D37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{54CB5054-F7C6-409F-97B0-33D3F46C64C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{25CFEFAC-4EDA-460A-BA2E-759E1B94D853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.AdministrativoAPI", "Sistemas.DoacaoDeSangue.AdministrativoAPI\Sistemas.DoacaoDeSangue.AdministrativoAPI.csproj", "{CA5152DC-293F-4308-9A8D-1AD662513A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.AgendamentoAPI", "Sistemas.DoacaoDeSangue.AgendamentoAPI\Sistemas.DoacaoDeSangue.AgendamentoAPI.csproj", "{80E23762-481B-4584-9EFE-1A48049E4E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.ColetaAPI", "Sistemas.DoacaoDeSangue.ColetaAPI\Sistemas.DoacaoDeSangue.ColetaAPI.csproj", "{1E2769AC-CACE-4F7F-81D0-85ADF77EC9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.AgendamentoService", "Sistemas.DoacaoDeSangue.AgendamentoService\Sistemas.DoacaoDeSangue.AgendamentoService.csproj", "{25C7D863-7A31-4BFE-83AC-FEEE091AE27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.DAO", "Sistemas.DoacaoDeSangue.DAO\Sistemas.DoacaoDeSangue.DAO.csproj", "{CBBCA9EA-D207-4A60-9382-38341044BE6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{518CCAB8-FC4B-4E93-80A8-6BBB4A2BA418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.DTO", "Sistemas.DoacaoDeSangue.DTO\Sistemas.DoacaoDeSangue.DTO.csproj", "{D19D7751-DEA4-421E-AC1C-9DCAE69EBFFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uteis", "Uteis", "{755B36DD-7EAA-4A5B-860F-02E5AAB9E32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.Log", "Sistemas.DoacaoDeSangue.Log\Sistemas.DoacaoDeSangue.Log.csproj", "{E37050E3-52C8-4383-86AB-0F32E8DF9EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.BolsaDeSangueAPI", "Sistemas.DoacaoDeSangue.BolsaDeSangueAPI\Sistemas.DoacaoDeSangue.BolsaDeSangueAPI.csproj", "{61DFDF50-CAA4-417A-A146-E499EAA2D4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.ColetaService", "Sistemas.DoacaoDeSangue.ColetaService\Sistemas.DoacaoDeSangue.ColetaService.csproj", "{8B753725-9DD7-4942-9CD8-022FB0A7EDF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA5152DC-293F-4308-9A8D-1AD662513A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5152DC-293F-4308-9A8D-1AD662513A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5152DC-293F-4308-9A8D-1AD662513A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5152DC-293F-4308-9A8D-1AD662513A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E23762-481B-4584-9EFE-1A48049E4E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E23762-481B-4584-9EFE-1A48049E4E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E23762-481B-4584-9EFE-1A48049E4E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E23762-481B-4584-9EFE-1A48049E4E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2769AC-CACE-4F7F-81D0-85ADF77EC9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2769AC-CACE-4F7F-81D0-85ADF77EC9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2769AC-CACE-4F7F-81D0-85ADF77EC9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2769AC-CACE-4F7F-81D0-85ADF77EC9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C7D863-7A31-4BFE-83AC-FEEE091AE27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C7D863-7A31-4BFE-83AC-FEEE091AE27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C7D863-7A31-4BFE-83AC-FEEE091AE27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C7D863-7A31-4BFE-83AC-FEEE091AE27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBCA9EA-D207-4A60-9382-38341044BE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBCA9EA-D207-4A60-9382-38341044BE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBCA9EA-D207-4A60-9382-38341044BE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBCA9EA-D207-4A60-9382-38341044BE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19D7751-DEA4-421E-AC1C-9DCAE69EBFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19D7751-DEA4-421E-AC1C-9DCAE69EBFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19D7751-DEA4-421E-AC1C-9DCAE69EBFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19D7751-DEA4-421E-AC1C-9DCAE69EBFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37050E3-52C8-4383-86AB-0F32E8DF9EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37050E3-52C8-4383-86AB-0F32E8DF9EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37050E3-52C8-4383-86AB-0F32E8DF9EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37050E3-52C8-4383-86AB-0F32E8DF9EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DFDF50-CAA4-417A-A146-E499EAA2D4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DFDF50-CAA4-417A-A146-E499EAA2D4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DFDF50-CAA4-417A-A146-E499EAA2D4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DFDF50-CAA4-417A-A146-E499EAA2D4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B753725-9DD7-4942-9CD8-022FB0A7EDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B753725-9DD7-4942-9CD8-022FB0A7EDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B753725-9DD7-4942-9CD8-022FB0A7EDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B753725-9DD7-4942-9CD8-022FB0A7EDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA5152DC-293F-4308-9A8D-1AD662513A0D} = {25CFEFAC-4EDA-460A-BA2E-759E1B94D853}
+		{80E23762-481B-4584-9EFE-1A48049E4E9A} = {25CFEFAC-4EDA-460A-BA2E-759E1B94D853}
+		{1E2769AC-CACE-4F7F-81D0-85ADF77EC9F2} = {25CFEFAC-4EDA-460A-BA2E-759E1B94D853}
+		{25C7D863-7A31-4BFE-83AC-FEEE091AE27D} = {54CB5054-F7C6-409F-97B0-33D3F46C64C3}
+		{CBBCA9EA-D207-4A60-9382-38341044BE6D} = {886FBDA0-5DEC-4F45-A9FC-BF97134E2D37}
+		{D19D7751-DEA4-421E-AC1C-9DCAE69EBFFF} = {518CCAB8-FC4B-4E93-80A8-6BBB4A2BA418}
+		{E37050E3-52C8-4383-86AB-0F32E8DF9EED} = {755B36DD-7EAA-4A5B-860F-02E5AAB9E32A}
+		{61DFDF50-CAA4-417A-A146-E499EAA2D4E5} = {25CFEFAC-4EDA-460A-BA2E-759E1B94D853}
+		{8B753725-9DD7-4942-9CD8-022FB0A7EDF3} = {54CB5054-F7C6-409F-97B0-33D3F46C64C3}
+	EndGlobalSection
+EndGlobal
