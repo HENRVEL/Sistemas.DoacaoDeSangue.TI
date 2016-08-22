@@ -121,14 +121,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AgendaLaboratorioController.cs" />
     <Compile Include="Controllers\AgendamentoDoadoresController.cs" />
     <Compile Include="Controllers\DoadoresController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IAgendaLaboratorio.cs" />
     <Compile Include="Interfaces\IAgendamentoDoador.cs" />
     <Compile Include="Interfaces\IDoador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorys\AgendaLaboratorioRepository.cs" />
     <Compile Include="Repositorys\AgendamentoDoadorRepository.cs" />
     <Compile Include="Repositorys\DoadorRepository.cs" />
   </ItemGroup>

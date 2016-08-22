@@ -7,3 +7,13 @@ C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.csprojResolveAssemblyReference.cache
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.dll
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.csprojResolveAssemblyReference.cache
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.pdb

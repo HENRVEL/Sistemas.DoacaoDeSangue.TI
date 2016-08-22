@@ -163,6 +163,9 @@
       <Parameter Name="TIPO_LOG" Mode="In" Type="String" />
       <Parameter Name="MENSAGEM" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="ObterAgendaLaboratorio" ReturnType="Collection(BD_DOACAOModel.ObterAgendaLaboratorio_Result)">
+      <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="ObterDoador_Result">
     <Property Type="Int32" Name="ID" Nullable="false" />
@@ -220,5 +223,11 @@
     <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
     <Property Type="Boolean" Name="CANCELADO" Nullable="false" />
     <Property Type="String" Name="MOTIVO_CANCELAMENTO" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="ObterAgendaLaboratorio_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="ID_LAB" Nullable="false" />
+    <Property Type="String" Name="DATA" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
   </ComplexType>
 </Schema>

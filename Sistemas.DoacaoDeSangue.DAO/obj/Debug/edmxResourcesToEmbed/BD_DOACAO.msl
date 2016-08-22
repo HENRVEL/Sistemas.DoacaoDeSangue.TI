@@ -91,5 +91,15 @@
     <FunctionImportMapping FunctionImportName="CriarResultadoDeExames" FunctionName="BD_DOACAOModel.Store.CriarResultadoDeExames" />
     <FunctionImportMapping FunctionImportName="CriarServicoPrestado" FunctionName="BD_DOACAOModel.Store.CriarServicoPrestado" />
     <FunctionImportMapping FunctionImportName="CriarLog" FunctionName="BD_DOACAOModel.Store.CriarLog" />
+    <FunctionImportMapping FunctionImportName="ObterAgendaLaboratorio" FunctionName="BD_DOACAOModel.Store.ObterAgendaLaboratorio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_DOACAOModel.ObterAgendaLaboratorio_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
+          <ScalarProperty Name="DATA" ColumnName="DATA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

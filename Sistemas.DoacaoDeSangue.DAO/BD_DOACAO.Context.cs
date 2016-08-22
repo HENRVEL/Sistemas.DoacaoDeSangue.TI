@@ -613,5 +613,14 @@ namespace Sistemas.DoacaoDeSangue.DAO
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("CriarLog", tIPO_LOGParameter, mENSAGEMParameter);
         }
+    
+        public virtual ObjectResult<ObterAgendaLaboratorio_Result> ObterAgendaLaboratorio(Nullable<int> iD_LAB)
+        {
+            var iD_LABParameter = iD_LAB.HasValue ?
+                new ObjectParameter("ID_LAB", iD_LAB) :
+                new ObjectParameter("ID_LAB", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ObterAgendaLaboratorio_Result>("ObterAgendaLaboratorio", iD_LABParameter);
+        }
     }
 }

@@ -5,6 +5,7 @@ namespace Sistemas.DoacaoDeSangue.DTO
     [DataContract]
     public class AgendaLaboratorio
     {
+        [DataMember]
         public int Id { get; set; }
         [DataMember]
         public int IdLaboratorio { get; set; }

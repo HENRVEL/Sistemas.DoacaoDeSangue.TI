@@ -66,6 +66,9 @@
     <Compile Include="ObterAgendaDoador_Result.cs">
       <DependentUpon>BD_DOACAO.tt</DependentUpon>
     </Compile>
+    <Compile Include="ObterAgendaLaboratorio_Result.cs">
+      <DependentUpon>BD_DOACAO.tt</DependentUpon>
+    </Compile>
     <Compile Include="ObterDoador_Result.cs">
       <DependentUpon>BD_DOACAO.tt</DependentUpon>
     </Compile>

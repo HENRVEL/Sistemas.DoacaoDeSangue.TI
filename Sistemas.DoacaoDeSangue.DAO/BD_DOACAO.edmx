@@ -157,6 +157,9 @@
         <Function Name="ObterAgendaDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="ID_DOA" Type="int" Mode="In" />
         </Function>
+        <Function Name="ObterAgendaLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_LAB" Type="int" Mode="In" />
+        </Function>
         <Function Name="ObterDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="ID" Type="int" Mode="In" />
           <Parameter Name="CPF" Type="bigint" Mode="In" />
@@ -335,6 +338,9 @@
             <Parameter Name="TIPO_LOG" Mode="In" Type="String" />
             <Parameter Name="MENSAGEM" Mode="In" Type="String" />
           </FunctionImport>
+          <FunctionImport Name="ObterAgendaLaboratorio" ReturnType="Collection(BD_DOACAOModel.ObterAgendaLaboratorio_Result)">
+            <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="ObterDoador_Result">
           <Property Type="Int32" Name="ID" Nullable="false" />
@@ -392,6 +398,12 @@
           <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
           <Property Type="Boolean" Name="CANCELADO" Nullable="false" />
           <Property Type="String" Name="MOTIVO_CANCELAMENTO" Nullable="true" MaxLength="255" />
+        </ComplexType>
+        <ComplexType Name="ObterAgendaLaboratorio_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="Int32" Name="ID_LAB" Nullable="false" />
+          <Property Type="String" Name="DATA" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -489,6 +501,16 @@
           <FunctionImportMapping FunctionImportName="CriarResultadoDeExames" FunctionName="BD_DOACAOModel.Store.CriarResultadoDeExames" />
           <FunctionImportMapping FunctionImportName="CriarServicoPrestado" FunctionName="BD_DOACAOModel.Store.CriarServicoPrestado" />
           <FunctionImportMapping FunctionImportName="CriarLog" FunctionName="BD_DOACAOModel.Store.CriarLog" />
+          <FunctionImportMapping FunctionImportName="ObterAgendaLaboratorio" FunctionName="BD_DOACAOModel.Store.ObterAgendaLaboratorio">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_DOACAOModel.ObterAgendaLaboratorio_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
+                <ScalarProperty Name="DATA" ColumnName="DATA" />
+                <ScalarProperty Name="HORA" ColumnName="HORA" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

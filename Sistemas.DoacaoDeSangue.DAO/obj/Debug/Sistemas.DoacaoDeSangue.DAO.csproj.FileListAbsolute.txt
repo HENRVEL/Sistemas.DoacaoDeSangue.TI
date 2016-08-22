@@ -13,3 +13,19 @@ C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.xml
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll.config
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.xml
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.csprojResolveAssemblyReference.cache
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI-master (2)\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll.config
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.dll
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.xml
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.csprojResolveAssemblyReference.cache
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.dll
+C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.pdb

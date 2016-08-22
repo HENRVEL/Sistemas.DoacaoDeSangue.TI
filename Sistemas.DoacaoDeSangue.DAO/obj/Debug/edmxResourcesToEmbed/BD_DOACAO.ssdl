@@ -152,6 +152,9 @@
   <Function Name="ObterAgendaDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="ID_DOA" Type="int" Mode="In" />
   </Function>
+  <Function Name="ObterAgendaLaboratorio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_LAB" Type="int" Mode="In" />
+  </Function>
   <Function Name="ObterDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="ID" Type="int" Mode="In" />
     <Parameter Name="CPF" Type="bigint" Mode="In" />
