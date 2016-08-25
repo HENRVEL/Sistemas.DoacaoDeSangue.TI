@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.Col
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.Log", "Sistemas.DoacaoDeSangue.Log\Sistemas.DoacaoDeSangue.Log.csproj", "{8D053579-9389-4592-8C7B-5DC180B4B0E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistemas.DoacaoDeSangue.Seguranca.API", "Sistemas.DoacaoDeSangue.Seguranca.API\Sistemas.DoacaoDeSangue.Seguranca.API.csproj", "{74F70E14-1CDF-425D-8279-C29F4ABD8A79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{8D053579-9389-4592-8C7B-5DC180B4B0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D053579-9389-4592-8C7B-5DC180B4B0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D053579-9389-4592-8C7B-5DC180B4B0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F70E14-1CDF-425D-8279-C29F4ABD8A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F70E14-1CDF-425D-8279-C29F4ABD8A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F70E14-1CDF-425D-8279-C29F4ABD8A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F70E14-1CDF-425D-8279-C29F4ABD8A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +93,6 @@ Global
 		{61DFDF50-CAA4-417A-A146-E499EAA2D4E5} = {25CFEFAC-4EDA-460A-BA2E-759E1B94D853}
 		{8B753725-9DD7-4942-9CD8-022FB0A7EDF3} = {54CB5054-F7C6-409F-97B0-33D3F46C64C3}
 		{8D053579-9389-4592-8C7B-5DC180B4B0E8} = {755B36DD-7EAA-4A5B-860F-02E5AAB9E32A}
+		{74F70E14-1CDF-425D-8279-C29F4ABD8A79} = {25CFEFAC-4EDA-460A-BA2E-759E1B94D853}
 	EndGlobalSection
 EndGlobal
