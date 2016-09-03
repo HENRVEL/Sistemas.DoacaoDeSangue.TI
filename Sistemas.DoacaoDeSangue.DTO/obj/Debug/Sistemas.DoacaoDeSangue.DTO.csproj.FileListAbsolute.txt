@@ -1,8 +1,3 @@
-C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.dll
-C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
-C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.csprojResolveAssemblyReference.cache
-C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
-C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.dll
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
 C:\Users\HENRIQUE\Desktop\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
@@ -17,3 +12,7 @@ C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI
 C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.csprojResolveAssemblyReference.cache
 C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
 C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.dll
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.pdb

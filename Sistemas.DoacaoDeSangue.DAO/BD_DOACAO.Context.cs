@@ -622,5 +622,51 @@ namespace Sistemas.DoacaoDeSangue.DAO
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ObterAgendaLaboratorio_Result>("ObterAgendaLaboratorio", iD_LABParameter);
         }
+    
+        public virtual int CriarUsuario(string uSUARIO, string sENHA, string tIPO_USUARIO, Nullable<int> iD_DOA, Nullable<int> iD_UHP, Nullable<int> iD_LAB)
+        {
+            var uSUARIOParameter = uSUARIO != null ?
+                new ObjectParameter("USUARIO", uSUARIO) :
+                new ObjectParameter("USUARIO", typeof(string));
+    
+            var sENHAParameter = sENHA != null ?
+                new ObjectParameter("SENHA", sENHA) :
+                new ObjectParameter("SENHA", typeof(string));
+    
+            var tIPO_USUARIOParameter = tIPO_USUARIO != null ?
+                new ObjectParameter("TIPO_USUARIO", tIPO_USUARIO) :
+                new ObjectParameter("TIPO_USUARIO", typeof(string));
+    
+            var iD_DOAParameter = iD_DOA.HasValue ?
+                new ObjectParameter("ID_DOA", iD_DOA) :
+                new ObjectParameter("ID_DOA", typeof(int));
+    
+            var iD_UHPParameter = iD_UHP.HasValue ?
+                new ObjectParameter("ID_UHP", iD_UHP) :
+                new ObjectParameter("ID_UHP", typeof(int));
+    
+            var iD_LABParameter = iD_LAB.HasValue ?
+                new ObjectParameter("ID_LAB", iD_LAB) :
+                new ObjectParameter("ID_LAB", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("CriarUsuario", uSUARIOParameter, sENHAParameter, tIPO_USUARIOParameter, iD_DOAParameter, iD_UHPParameter, iD_LABParameter);
+        }
+    
+        public virtual ObjectResult<VerificarSenhaUsuario_Result> VerificarSenhaUsuario(string uSUARIO, string tIPO_USUARIO, string sENHA)
+        {
+            var uSUARIOParameter = uSUARIO != null ?
+                new ObjectParameter("USUARIO", uSUARIO) :
+                new ObjectParameter("USUARIO", typeof(string));
+    
+            var tIPO_USUARIOParameter = tIPO_USUARIO != null ?
+                new ObjectParameter("TIPO_USUARIO", tIPO_USUARIO) :
+                new ObjectParameter("TIPO_USUARIO", typeof(string));
+    
+            var sENHAParameter = sENHA != null ?
+                new ObjectParameter("SENHA", sENHA) :
+                new ObjectParameter("SENHA", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<VerificarSenhaUsuario_Result>("VerificarSenhaUsuario", uSUARIOParameter, tIPO_USUARIOParameter, sENHAParameter);
+        }
     }
 }

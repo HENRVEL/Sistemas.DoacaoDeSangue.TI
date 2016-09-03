@@ -145,6 +145,14 @@
           <Parameter Name="TELEFONE" Type="varchar" Mode="In" />
           <Parameter Name="ATIVO" Type="bit" Mode="In" />
         </Function>
+        <Function Name="CriarUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="USUARIO" Type="varchar" Mode="In" />
+          <Parameter Name="SENHA" Type="varchar" Mode="In" />
+          <Parameter Name="TIPO_USUARIO" Type="varchar" Mode="In" />
+          <Parameter Name="ID_DOA" Type="int" Mode="In" />
+          <Parameter Name="ID_UHP" Type="int" Mode="In" />
+          <Parameter Name="ID_LAB" Type="int" Mode="In" />
+        </Function>
         <Function Name="ExcluirDoador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="ID" Type="int" Mode="In" />
         </Function>
@@ -169,6 +177,11 @@
         </Function>
         <Function Name="ObterUnidadeHospitalar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="ID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="VerificarSenhaUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="USUARIO" Type="varchar" Mode="In" />
+          <Parameter Name="TIPO_USUARIO" Type="varchar" Mode="In" />
+          <Parameter Name="SENHA" Type="varchar" Mode="In" />
         </Function>
         <EntityContainer Name="BD_DOACAOModelStoreContainer" />
       </Schema></edmx:StorageModels>
@@ -339,7 +352,20 @@
             <Parameter Name="MENSAGEM" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="ObterAgendaLaboratorio" ReturnType="Collection(BD_DOACAOModel.ObterAgendaLaboratorio_Result)">
+          <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="CriarUsuario">
+            <Parameter Name="USUARIO" Mode="In" Type="String" />
+            <Parameter Name="SENHA" Mode="In" Type="String" />
+            <Parameter Name="TIPO_USUARIO" Mode="In" Type="String" />
+            <Parameter Name="ID_DOA" Mode="In" Type="Int32" />
+            <Parameter Name="ID_UHP" Mode="In" Type="Int32" />
             <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="VerificarSenhaUsuario" ReturnType="Collection(BD_DOACAOModel.VerificarSenhaUsuario_Result)">
+            <Parameter Name="USUARIO" Mode="In" Type="String" />
+            <Parameter Name="TIPO_USUARIO" Mode="In" Type="String" />
+            <Parameter Name="SENHA" Mode="In" Type="String" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="ObterDoador_Result">
@@ -404,6 +430,10 @@
           <Property Type="Int32" Name="ID_LAB" Nullable="false" />
           <Property Type="String" Name="DATA" Nullable="false" MaxLength="50" />
           <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="VerificarSenhaUsuario_Result">
+          <Property Type="String" Name="USUARIO_RETORNO" Nullable="false" MaxLength="30" />
+          <Property Type="Int32" Name="SENHA_CONFERIDA" Nullable="true" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -508,6 +538,15 @@
                 <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
                 <ScalarProperty Name="DATA" ColumnName="DATA" />
                 <ScalarProperty Name="HORA" ColumnName="HORA" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="CriarUsuario" FunctionName="BD_DOACAOModel.Store.CriarUsuario" />
+          <FunctionImportMapping FunctionImportName="VerificarSenhaUsuario" FunctionName="BD_DOACAOModel.Store.VerificarSenhaUsuario">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_DOACAOModel.VerificarSenhaUsuario_Result">
+                <ScalarProperty Name="USUARIO_RETORNO" ColumnName="USUARIO_RETORNO" />
+                <ScalarProperty Name="SENHA_CONFERIDA" ColumnName="SENHA_CONFERIDA" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\TCC\Codigo Fonte\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.TI-master\Sistemas.DoacaoDeSangue.DAO\BD_DOACAO.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\BD_DOACAO.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

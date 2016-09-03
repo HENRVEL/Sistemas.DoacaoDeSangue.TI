@@ -166,6 +166,19 @@
     <FunctionImport Name="ObterAgendaLaboratorio" ReturnType="Collection(BD_DOACAOModel.ObterAgendaLaboratorio_Result)">
       <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="CriarUsuario">
+      <Parameter Name="USUARIO" Mode="In" Type="String" />
+      <Parameter Name="SENHA" Mode="In" Type="String" />
+      <Parameter Name="TIPO_USUARIO" Mode="In" Type="String" />
+      <Parameter Name="ID_DOA" Mode="In" Type="Int32" />
+      <Parameter Name="ID_UHP" Mode="In" Type="Int32" />
+      <Parameter Name="ID_LAB" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="VerificarSenhaUsuario" ReturnType="Collection(BD_DOACAOModel.VerificarSenhaUsuario_Result)">
+      <Parameter Name="USUARIO" Mode="In" Type="String" />
+      <Parameter Name="TIPO_USUARIO" Mode="In" Type="String" />
+      <Parameter Name="SENHA" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="ObterDoador_Result">
     <Property Type="Int32" Name="ID" Nullable="false" />
@@ -229,5 +242,9 @@
     <Property Type="Int32" Name="ID_LAB" Nullable="false" />
     <Property Type="String" Name="DATA" Nullable="false" MaxLength="50" />
     <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="VerificarSenhaUsuario_Result">
+    <Property Type="String" Name="USUARIO_RETORNO" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="SENHA_CONFERIDA" Nullable="true" />
   </ComplexType>
 </Schema>

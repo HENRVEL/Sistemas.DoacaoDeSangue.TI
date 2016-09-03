@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace Sistemas.DoacaoDeSangue.Seguranca.API
+namespace Sistemas.DoacaoDeSangue.SegurancaAPI
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

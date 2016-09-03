@@ -51,6 +51,7 @@
     <Compile Include="Paciente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResultadoDeExames.cs" />
+    <Compile Include="Seguranca.cs" />
     <Compile Include="ServicosPrestados.cs" />
     <Compile Include="UnidadeHospitalar.cs" />
   </ItemGroup>

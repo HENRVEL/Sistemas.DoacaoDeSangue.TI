@@ -79,6 +79,9 @@
       <DependentUpon>BD_DOACAO.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerificarSenhaUsuario_Result.cs">
+      <DependentUpon>BD_DOACAO.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="BD_DOACAO.edmx">
