@@ -53,7 +53,7 @@ namespace Sistemas.DoacaoDeSangue.SegurancaAPI.Respositorys
 
             foreach (var item in resultado)
             {
-                retorno = item.SENHA_CONFERIDA.ToString();
+                retorno = item.ID_USUARIO.ToString() +"," + item.SENHA_CONFERIDA.ToString();
             }
 
             return retorno;

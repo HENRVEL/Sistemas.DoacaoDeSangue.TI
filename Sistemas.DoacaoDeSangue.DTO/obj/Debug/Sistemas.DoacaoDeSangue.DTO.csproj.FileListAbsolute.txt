@@ -16,3 +16,4 @@ C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeS
 C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\bin\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
 C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.dll
 C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.pdb
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DTO\obj\Debug\Sistemas.DoacaoDeSangue.DTO.csprojResolveAssemblyReference.cache

@@ -13,7 +13,7 @@ namespace Sistemas.DoacaoDeSangue.DAO
     
     public partial class VerificarSenhaUsuario_Result
     {
-        public string USUARIO_RETORNO { get; set; }
+        public Nullable<int> ID_USUARIO { get; set; }
         public Nullable<int> SENHA_CONFERIDA { get; set; }
     }
 }

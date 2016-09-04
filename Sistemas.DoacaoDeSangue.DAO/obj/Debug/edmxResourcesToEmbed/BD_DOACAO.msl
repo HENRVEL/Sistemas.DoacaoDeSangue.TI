@@ -105,7 +105,7 @@
     <FunctionImportMapping FunctionImportName="VerificarSenhaUsuario" FunctionName="BD_DOACAOModel.Store.VerificarSenhaUsuario">
       <ResultMapping>
         <ComplexTypeMapping TypeName="BD_DOACAOModel.VerificarSenhaUsuario_Result">
-          <ScalarProperty Name="USUARIO_RETORNO" ColumnName="USUARIO_RETORNO" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
           <ScalarProperty Name="SENHA_CONFERIDA" ColumnName="SENHA_CONFERIDA" />
         </ComplexTypeMapping>
       </ResultMapping>

@@ -28,3 +28,4 @@ C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeS
 C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\bin\Debug\EntityFramework.xml
 C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.dll
 C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.pdb
+C:\Users\HENRIQUE\Documents\GitHub\Sistemas.DoacaoDeSangue.TI\Sistemas.DoacaoDeSangue.DAO\obj\Debug\Sistemas.DoacaoDeSangue.DAO.csprojResolveAssemblyReference.cache

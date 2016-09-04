@@ -432,7 +432,7 @@
           <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
         </ComplexType>
         <ComplexType Name="VerificarSenhaUsuario_Result">
-          <Property Type="String" Name="USUARIO_RETORNO" Nullable="false" MaxLength="30" />
+          <Property Type="Int32" Name="ID_USUARIO" Nullable="true" />
           <Property Type="Int32" Name="SENHA_CONFERIDA" Nullable="true" />
         </ComplexType>
       </Schema>
@@ -545,7 +545,7 @@
           <FunctionImportMapping FunctionImportName="VerificarSenhaUsuario" FunctionName="BD_DOACAOModel.Store.VerificarSenhaUsuario">
             <ResultMapping>
               <ComplexTypeMapping TypeName="BD_DOACAOModel.VerificarSenhaUsuario_Result">
-                <ScalarProperty Name="USUARIO_RETORNO" ColumnName="USUARIO_RETORNO" />
+                <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
                 <ScalarProperty Name="SENHA_CONFERIDA" ColumnName="SENHA_CONFERIDA" />
               </ComplexTypeMapping>
             </ResultMapping>

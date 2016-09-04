@@ -244,7 +244,7 @@
     <Property Type="String" Name="HORA" Nullable="false" MaxLength="50" />
   </ComplexType>
   <ComplexType Name="VerificarSenhaUsuario_Result">
-    <Property Type="String" Name="USUARIO_RETORNO" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="ID_USUARIO" Nullable="true" />
     <Property Type="Int32" Name="SENHA_CONFERIDA" Nullable="true" />
   </ComplexType>
 </Schema>
